@@ -1,0 +1,365 @@
+{
+  "settings": {
+    "name": "Hasch und Blütenpartei",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise4",
+      "title": "Mobirise 4",
+      "styling": {
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#1f840b"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.12.3",
+    "siteFonts": [],
+    "favicon": "@PROJECT_PATH@/assets/images/1200px-cannabis-leaf.svg.png",
+    "imageResize": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 8,
+    "versionPublish": "4.12.3"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "P": {
+              "color": "#767676"
+            }
+          },
+          "_name": "header16",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full-Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Untertitel Anzeigen\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Text Anzeigen\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons Anzeigen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#efefef\" selected>\n            <input type=\"video\" title=\"Hintergrundvideo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay-Farbe\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Transparenz\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    Hasch und Blütenpartei</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Schöne mobile Websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Für zeitgemäße, wissenschaftsbasierte und gerechte Drogenpolitik.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"index.html#image4-2\" data-app-placeholder=\"Type Text\">Wahlprogramm (kurz)</a> <a class=\"btn btn-md btn-black-outline\" href=\"index.html#content9-4\" data-app-placeholder=\"Type Text\">Wahlprogramm (lang)</a> <a class=\"btn btn-md btn-black-outline\" href=\"index.html#content10-6\" data-app-placeholder=\"Type Text\">Statistiken und Wissenschaft</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "sldKkOmkNR",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header16-0"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".images-container.container-fluid": {
+              "padding": "0"
+            },
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              "-webkit-align-items": "stretch",
+              ".img-item": {
+                "display": "-webkit-flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "-webkit-flex-direction": "column",
+                "-webkit-justify-content": "center",
+                "img": {
+                  "width": "100%",
+                  "min-height": "1px"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              },
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important",
+                  "-webkit-flex-basis": "initial !important"
+                }
+              }
+            }
+          },
+          "_name": "image4",
+          "_customHTML": "<section group=\"Images & Videos\">\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Full-Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Breite\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Größe\" name=\"proportions\" min=\"30\" max=\"300\" value=\"104\" step=\"1\">\n        <input type=\"checkbox\" title=\"Unterschrift Anzeigen\" name=\"showCaption\">\n        <input type=\"color\" title=\"Unterschrift-Hintergrund\" name=\"cpBg\" value=\"#ffffff\" condition=\"showCaption\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <!-- End block parameters -->\n    <div class=\"container images-container\" mbr-class=\"{'container-fluid':fullWidth,container:fullWidth==false}\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/1.png\" alt title>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">\n                            Responsiv\n                        </p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <img src=\"@PROJECT_PATH@/assets/images/2.png\" alt title>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">\n                            Mobile-freundlich\n                        </p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_cid": "sldL21jInc",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image4-2"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Untertitel Anzeigen\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons Anzeigen\" name=\"showButtons\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Wahlprogramm der HBP</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">(<a href=\"https://docs.google.com/document/d/1iSxUdsdrpz02n7uOHiCs8Z3kmKK8i-lhiXkd36z2W8s/edit?usp=sharing\">alternative Ansicht für Mobile Geräte</a>)</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">MEHR INFO</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sldLJpUsZU",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-3"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Textbreite\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Linienbreite\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Linienfarbe\" name=\"lineColor\" value=\"#1f840b\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>1. Drogen Agenda\n<div>\n</div><div><i>Wir stehen für eine neue progressive Entwicklungspolitik im Bereich der Rauschmittel. Statt wissenschaftlichen Erkenntnissen zu widersprechen und Repression zu predigen, fordern wir eine Wende mit der Legalisierung von weichen Drogen (namentlich Cannabis, ‘Magic Mushrooms’ und LSD), sowie die Entkriminalisierung der restlichen illegalen Drogen.\n</i></div><div><i><br></i></div><div>\n#######</div><div>1.1 Legalisierung von weichen Drogen\n</div><div>- Cannabis, psychedelische Pilze und LSD sollen legalisiert werden\n</div><div>- Der Verkauf darf nur an kontrollierten genehmigten Shops stattfinden, die maximale legale &nbsp; &nbsp;&nbsp;&nbsp;Erwerbsmenge soll bei 5g liegen\n</div><div>- Werbung für jegliche Art von Drogen und deren Konsum wird nicht erlaubt\n</div><div>- Kaufen darf, wer mindestens 18 Jahre alt ist und ein Ausweisdokument der EU vorzeigen kann (z. &nbsp;&nbsp;&nbsp;b. Reisepass, Personalausweis oder Führerschein)\n</div><div>- dabei dürfen auch Samen erworben werden, maximal dürfen drei\n</div><div>&nbsp;&nbsp;&nbsp;Pflanzen für den Eigenbedarf gezüchtet werden\n</div><div>- jeder Shopbesitzer ist dazu verpflichtet in seinem Laden den Kunden über die Risiken aufzuklären &nbsp;&nbsp;&nbsp;und Kontakte zu therapeutischer Hilfe (bzw. allgemeiner Hilfe bei Drogensucht) bereitzuhalten\n</div><div>- Der wirtschaftliche Anbau muss unter Berücksichtigung von verschiedenen Kriterien (diese &nbsp;&nbsp;&nbsp;werden entsprechend ausgearbeitet im Gesetzesentwurf) staatlich einzeln genehmigt werden; &nbsp;&nbsp;&nbsp;die Lieferkette muss transparent und klar strukturiert sein; beliefert werden dürfen nur Staaten, &nbsp;&nbsp;&nbsp;die den Import und den Konsum genehmigt haben. Dabei muss Bürokratie so gering wie möglich &nbsp;&nbsp;&nbsp;gehalten werden\n</div><div>- Shops dürfen gewisse Grenzwerte der Wirkstoffe THC (höchst. 25% in Pflanze), Psilocybin (höchst. &nbsp;&nbsp;&nbsp;20mg pro Pilz) \n</div><div>&nbsp;&nbsp;&nbsp;und LSD (höchst. 200 mic.g pro Filz bzw. Tab) nicht überschreiten\n</div><div>\n#######</div><div>&nbsp;1.2 Entkriminalisierung aller Drogen\n</div><div>Die Erfahrungen der Repressionspolitik haben gezeigt, dass durch die Streckung von Drogen und dem florierenden “Legal-High’s” - Markt wesentlich mehr gesundheitliche Schäden entstehen, als durch die kriminalisierten Drogen selber. \n</div><div>Des Weiteren zeigen dutzende Studien, dass der Drogenkonsum durch andere Faktoren begünstigt werden (Umwelt, Familie, psychische Situation, ‘Schicksalsschläge’, usw.) und die Legalität des Rauschmittels in großem Maße zweitrangig ist. \n</div><div>Zudem zeigten sich in Ländern, in denen entkriminalisiert wurde, große Erfolge. Als bestes Beispiel kann hier Portugal angeführt werden, so gab es vor der Entkriminalisierung wesentlich mehr Konsum als danach. Die teils gravierenden Drogenprobleme des Landes wurden deutlich verbessert.\n</div><div>Letztendlich sind wir auch der Überzeugung, dass jeder Mensch nach Vollendung des 18. Lebensjahres mündig ist und im Sinne des Vernunft- und Liberalitätsprinzipium selbst entscheiden sollte, was er seinem Körper hinzufügt. \n</div><div>- der Erwerb und Konsum wird als Ordnungswidrigkeit geahndet\n</div><div>- Fahren unter dem Einfluss von Rauschmitteln bleibt eine Straftat, wobei der Einfluss juristisch nur &nbsp;&nbsp;&nbsp;solange gilt, solange tatsächlich eine Wirkung vorhanden ist. Das heißt, wenn die Droge im Blut &nbsp;&nbsp;&nbsp;noch nachweisbar ist, aber der Fahrer keinerlei Effekt davon hat, wird kein Strafverfahren &nbsp;&nbsp;&nbsp;begonnen. Die Entscheidung, ob der Fahrer nüchtern ist, stellt die Polizei mit Schnelltests fest.\n</div><div>- der Verkauf von harten Drogen bleibt eine illegale Straftat und wird entsprechend verfolgt. Die &nbsp;&nbsp;&nbsp;Strafen müssen hierbei jedoch angepasst werden.</div><div><span style=\"font-size: 1.5rem;\">- wer beim Drogenkonsum erwischt wird, kann anstelle des Bußgeldes auch in kostenlose </span>&nbsp;&nbsp;&nbsp;<span style=\"font-size: 1.5rem;\">therapeutische Behandlung gehen&nbsp;</span></div><div>- grundsätzlich soll die Entkriminalisierung nach <a href=\"https://www.planet-wissen.de/kultur/suedeuropa/geschichte_portugals/portugal-drogenpolitik-100.html\" target=\"_blank\">portugiesischem Modell</a> gestaltet werden</div><div>\n#######</div><div>&nbsp;1.3 Aufklärung und Prävention\n</div><div>Drogen sind ein psychisches und physisches Risiko, über deren Schäden aufgeklärt werden müssen. Gleichzeitig ist es nötig, dass Stigmata, die zum Thema Sucht existieren, abgebaut werden. Dazu soll der Bildungsplan für mehr Aufklärung angepasst werden. Verkäufer von Rauschmitteln müssen eine Fortbildung machen, bei dem Sie lernen über Risiken und (Langzeit)-Schäden aufzuklären. Gleichzeitig muss es genügend staatliche Anlaufstellen geben, die kostenlose therapeutische Hilfe bei Suchtproblemen anbieten, sowie deutlich intensiver beworbene Notfallnummern und Chat-Möglichkeiten, wodurch die Hemmschwelle der Betroffenen, sich Unterstützung zu suchen, deutlich verringert wird. Finanziert wird das durch den Steuersatz auf weichen Drogen und durch die Ersparnis im Justizsystem (voraussichtlich mehrere Milliarden Euro!)\n</div><div>\n#######</div><div>1.4 Medizin und Forschung\n</div><div>Bewusstseinsverändernde Drogen besitzen ein enormes Potenzial für die Behandlung vieler psychischer Erkrankungen. Daher sollte die Forschung im Bereich der medizinischen Anwendung von Drogen intensiviert und unterstützt werden. Gerade bei der Bekämpfung von Suchterkrankungen können psychedelische Substanzen, wie zum Beispiel LSD, Patienten zu einem reflektierteren Umgang mit einer Sucht helfen (<a href=\"https://www.spiegel.de/wissenschaft/medizin/halluzinogen-lsd-hilft-gegen-alkoholsucht-a-820313.html\" target=\"_blank\">Studien</a>). Darüber hinaus gibt es noch ein weitreichenderes Wirkungsspektrum, was dazu führt, dass psychedelische Drogen in der Psychotherapie eingesetzt werden können (<a href=\"https://www.spektrum.de/news/psychedelische-drogen-in-der-psychotherapie/1521427\" target=\"_blank\">Studien</a>). \n</div><div>\n#######</div><div>1.5 Alkohol\n</div><div>Bei Alkohol handelt es sich ebenfalls, um eine gefährliche und schädliche Droge mit hohem Suchtpotenzial. Aus kulturellen Gründen ist es für 14 Jährige möglich an Alkohol zu kommen und dies ohne über Risiken und Schäden im Klaren zu sein. Aufgrund der Todeszahlen und Anzahl der Abhängigen sind wir der Überzeugung, dass man Alkohol als das sehen sollte, was er ist: eine gefährliche und süchtig machende Droge. Daher ist es unumgänglich, dass Alkohol auf die Liste der weichen Drogen aufgenommen wird. Konkret bedeutet das, Alkohol darf nur noch an staatlich genehmigten Shops verkauft werden (nicht mehr im Supermarkt). Der Erwerb ist erst ab 18 Jahre erlaubt und die Aufklärung in der Schule wird intensiviert.\n</div><div>Aufgrund der deutschen Geschichte und aktuellen Situation sehen wir bei unserer Position zu Alkohol auch eine Kompromissbereitschaft. Dennoch soll es Eltern nicht mehr erlaubt sein, Alkohol an ihre Minderjährigen Kinder auszuschenken. Zusammen mit der Aufklärung in Schulen werden die Teenager so schon in frühen Jahren sensibilisiert.\n</div><div>\n#######</div><div>2. Sonstige Politik\n</div><div>Nicht unser Milieu; wir sind für Drogen zuständig, daher werden wir in keine Koalition gehen und grundsätzlich neutral bleiben bei politischen Entscheidungen. In unserer Parteispitze sind verschiedene politische Strömungen vereint. Von Links, wie auch von Rechts. Allerdings ist aber trotzdem nicht auszuschließen, dass wir leicht links abstimmen werden, da der Großteil Links ausgerichtet ist. Dies liegt dem zugrunde, dass eine progressive Drogenpolitik im rechts-konservativen Politikfeld nur schwach vertreten ist. \n</div><div><br></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "sldLK0bXtf",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-4"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content10",
+          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Textbreite\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"62\">\n        <input type=\"range\" inline title=\"Linienbreite\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"90\">\n        <input type=\"color\" title=\"Linienfarbe\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#073b4c\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><i>\n                    <a href=\"https://www.careelite.de/cannabis-statistiken-fakten/?cn-reloaded=1\" target=\"_blank\">Zahlen, Fakten und Studien</a></i></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
+          "_cid": "sldQLbMo4v",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content10-6"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".images-container.container-fluid": {
+              "padding": "0"
+            },
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              "-webkit-align-items": "stretch",
+              ".img-item": {
+                "display": "-webkit-flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "-webkit-flex-direction": "column",
+                "-webkit-justify-content": "center",
+                "img": {
+                  "width": "100%",
+                  "min-height": "1px"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              },
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important",
+                  "-webkit-flex-basis": "initial !important"
+                }
+              }
+            }
+          },
+          "_name": "image4",
+          "_customHTML": "<section group=\"Images & Videos\">\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Full-Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Breite\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"88\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Größe\" name=\"proportions\" min=\"30\" max=\"300\" value=\"115\" step=\"1\">\n        <input type=\"checkbox\" title=\"Unterschrift Anzeigen\" name=\"showCaption\">\n        <input type=\"color\" title=\"Unterschrift-Hintergrund\" name=\"cpBg\" value=\"#ffffff\" condition=\"showCaption\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <!-- End block parameters -->\n    <div class=\"container images-container\" mbr-class=\"{'container-fluid':fullWidth,container:fullWidth==false}\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/schadenspotenzial.png\" alt title>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">\n                            Responsiv\n                        </p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <img src=\"@PROJECT_PATH@/assets/images/3w1280c0.bild.gif\" alt title>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">\n                            Mobile-freundlich\n                        </p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_cid": "sldQcm46zx",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image4-5"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              "-webkit-align-items": "stretch",
+              ".img-item": {
+                "display": "-webkit-flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "-webkit-flex-direction": "column",
+                "-webkit-justify-content": "center",
+                "img": {
+                  "width": "100%",
+                  "min-height": "1px"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important",
+                  "-webkit-flex-basis": "initial !important"
+                }
+              }
+            }
+          },
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Breite\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"66\" step=\"1\">\n        <input type=\"range\" inline title=\"Größe\" name=\"proportions\" min=\"30\" max=\"300\" value=\"87\" step=\"1\">\n        <input type=\"checkbox\" title=\"Unterschrift Anzeigen\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Unterschrift-Hintergrund\" name=\"cpBg\" value=\"#efefef\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/rational-scale-to-assess-the-harm-of-drugs-mean-physical-harm-and-mean-dependence-de.svg.png\" alt title>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">\n                            andere Darstellung, selbe Studie wie oben</p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <img src=\"@PROJECT_PATH@/assets/images/bv0bcybieaei3fj.png\" alt title>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">Abstrakt</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_cid": "sldRUtBPXY",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content13-7"
+        }
+      ]
+    }
+  }
+}
